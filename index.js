@@ -1,4 +1,4 @@
-const { bold, apply } = require('./font');
+const { apply, reverseApply, bold, origin } = require('./font');
 
 
-module.exports = { bold, apply };
+module.exports = { apply, reverseApply, bold, origin };
