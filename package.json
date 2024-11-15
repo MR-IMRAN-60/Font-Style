@@ -10,7 +10,8 @@
     "font",
     "transform",
     "bold",
-    "text"
+    "text",
+    "style"
   ],
   "author": "IMRAN",
   "license": "ISC"
