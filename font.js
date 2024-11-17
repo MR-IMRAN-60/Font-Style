@@ -13,6 +13,10 @@ const boldItalic = {
   5: '𝟱', 6: '𝟲', 7: '𝟳', 8: '𝟴', 9: '𝟵'
 };
 
+function one(text, fontMap) {
+  return text.replace(/[a-zA-Z0-9]/g, (char) => fontMap[char] || char);
+}
+
 const bold = {
   a: '𝗮', b: '𝗯', c: '𝗰', d: '𝗱', e: '𝗲', f: '𝗳',
   g: '𝗴', h: '𝗵', i: '𝗶', j: '𝗷', k: '𝗸', l: '𝗹',
@@ -39,5 +43,6 @@ function apply(text, fontMap) {
 module.exports = { 
   bold,
   apply,
-  boldItalic
+  boldItalic,
+  one
 };
