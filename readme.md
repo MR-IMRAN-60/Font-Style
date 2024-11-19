@@ -2,7 +2,7 @@
 ## Usage
 
 ```javascript
-const { apply, bold } = require('font-style-api');
+const { apply, bold, boldItalic, flaky, subfont } = require('font-style-api');
 
 const text = "Hello, World!";
 const boldText = apply(text, bold);
