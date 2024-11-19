@@ -1,4 +1,3 @@
-Certainly! Below is a sample `README.md` for the provided code, which demonstrates how to use the `font-style-api` package to apply various text styles:
 
 ```markdown
 # Font Style API Example
