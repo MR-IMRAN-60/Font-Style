@@ -1,10 +1,14 @@
 {
   "name": "font-style-api",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "description": "A simple font transformation utility for bold text",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MR-IMRAN-60/Font-Style"
   },
   "keywords": [
     "font",
@@ -14,5 +18,11 @@
     "style"
   ],
   "author": "IMRAN",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MR-IMRAN-60/Font-Style/issues"
+  },
+  "homepage": "https://github.com/MR-IMRAN-60/Font-Style#readme"
+
+ 
 }
