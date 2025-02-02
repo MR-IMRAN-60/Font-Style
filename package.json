@@ -1,6 +1,6 @@
 {
-  "name": "font-style-api",
-  "version": "1.1.0",
+  "name": "font-style-apis",
+  "version": "1.0.0",
   "description": "A simple font transformation utility for bold text",
   "main": "index.js",
   "scripts": {
