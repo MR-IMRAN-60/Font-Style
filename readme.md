@@ -8,8 +8,8 @@
 
 <a href="https://www.npmjs.com/package/imgur-uploader-api"><img alt="npm version" src="https://img.shields.io/npm/v/imgur-uploader-api.svg?style=flat-square"></a>
 <img alt="version" src="https://img.shields.io/github/package-json/v/MR-IMRAN-60/Font-Style?label=github&style=flat-square">
-<a href="https://www.npmjs.com/package/font-style-api"><img src="https://img.shields.io/npm/dm/font-style-api.svg?style=flat-square" alt="npm downloads"></a>
-[![js dilvr](https://data.jsdelivr.com/v1/package/npm/font-style-api/badge)](https://www.jsdelivr.com/package/npm/font-style-api)
+<a href="https://www.npmjs.com/package/font-style-apis"><img src="https://img.shields.io/npm/dm/font-style-api.svg?style=flat-square" alt="npm downloads"></a>
+[![js dilvr](https://data.jsdelivr.com/v1/package/npm/font-style-apis/badge)](https://www.jsdelivr.com/package/npm/font-style-apis)
 
 
 ```markdown
@@ -35,7 +35,7 @@ If you don’t have it installed, you can download it from [here](https://nodejs
 2. Run the following command to install the `font-style-api` package:
 
 ```bash
-npm install font-style-api
+npm install font-style-apis
 ```
 
 ## Usage
@@ -43,7 +43,7 @@ npm install font-style-api
 Create a new JavaScript file (e.g., `index.js`) and include the following code to apply different font styles to a string of text:
 
 ```javascript
-const { apply, bold, boldItalic, flaky, subfont } = require('font-style-api');
+const { apply, bold, boldItalic, flaky, subfont } = require('font-style-apis');
 
 const text = "Hello, World!";
 
